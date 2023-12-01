@@ -29,6 +29,15 @@ const config = {
   experiments: {
     css: true,
   },
+  builtins: {
+    css: {
+      modules: {
+        localsConvention: "camelCase",
+        localIdentName: "[path][name]__[local]-[hash:6]",
+        exportsOnly: false,
+      },
+    },
+  },
 };
 
 export default config;

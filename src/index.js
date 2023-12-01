@@ -1,3 +1,3 @@
-import('./render').then(exports => {
-    exports.render()
-})
+import styles from "./a.module.css";
+
+console.log(styles);
